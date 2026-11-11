@@ -1,0 +1,18 @@
+package wisata;
+
+public class WisataBuatan extends DestinasiWisata {
+
+    public WisataBuatan(String nama, String lokasi,
+            double harga, String jam) {
+
+        super(nama, lokasi, "Wisata Buatan", harga, jam);
+    }
+
+    @Override
+    public void tampilkanDetail() {
+
+        System.out.println("\n=== DETAIL WISATA BUATAN ===");
+
+        super.tampilkanDetail();
+    }
+}
